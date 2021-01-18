@@ -1,6 +1,8 @@
 // load the things we need
 var express = require('express');
 var app = express();
+//const axios = require('axios').default;
+//const DB_URL = "http://127.0.0.1:5984/products/";
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -13,18 +15,8 @@ app.get('/', function(req, res) {
         {
              _id: '505873ae5adc85198d0576176f006f3c', 
             name: "Bad times at the El Royale",
-             actors: ["Jeff Bridges"]
-        },
-        { 
-            _id: '505873ae5adc85198d0576176f006f3d', 
-            name: "Bad times at the El Royale", 
-            actors: ["Jon Hamm"]
-        },
-        { 
-            _id: '505873ae5adc85198d0576176f006f3e', 
-            name: "Bad times at the El Royale", 
-            actors: ["Dakota Johnson"]
-        },
+             actors: ["Jeff Bridges, Jon Hamm, Dakota Johnson"]
+        }
     ];
     var tagline = "Movies";
 
