@@ -3,3 +3,34 @@ Papillon : Steve McQueen, Dustin Hoffman
 Lost in translation : Bill Murray, Scarlett Johansson
 Bad times at the El Royale : Jeff Bridges, Jon Hamm, Dakota Johnson
 The Getaway : Steve McQueen, Ali MacGraw
+
+{
+  "_id": "",
+  "name": "The Big Lebowski",
+  "actors": ["Julianne Moore", "Jeff Bridges", "Tara Reid"]
+}
+
+{
+  "_id": "",
+  "name": "Papillon",
+  "actors": ["Steve McQueen", "Dustin Hoffman"]
+}
+
+{
+  "_id": "",
+  "name": "Lost in translation",
+  "actors": ["Bill Murray", "Scarlett Johansson"]
+}
+
+{
+  "_id": "",
+  "name": "Bad times at the El Royale",
+  "actors": ["Jeff Bridges", "Jon Hamm", "Dakota Johnson"]
+}
+
+{
+  ""_id": "",
+  "name": "The Getaway",
+  "actors": ["Steve McQueen", "Ali MacGraw"]
+}
+
