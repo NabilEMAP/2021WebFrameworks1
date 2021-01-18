@@ -2,7 +2,14 @@
   "name": "node-ejs",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "couchdb": "^0.3.8",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
   }
 }
