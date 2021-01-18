@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main>
+    <div>
+        <h1>Home page</h1>
+        <!-- 
+        <p>Welcome to templating using EJS</p>
+        -->
+        <h2><%= tagline %></h2>
+
+        <ul>
+            <% movies.forEach(function(movie) { %>
+                <li>
+                    <strong>id: <%= movie._id %><br/></strong>
+                    movie name: <%= movie.name %>,<br/>
+                     actor: <%= movie.actors %>
+                </li>
+                <br/>
+            <% }); %>
+        </ul>
+    </div>
+</main>
+
+<!-- 
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+-->
+
+</body>
+</html>
